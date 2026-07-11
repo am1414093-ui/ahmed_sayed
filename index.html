@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <link href="photo.jpg" type="image/x-icon" rel="icon" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="مرجع شامل لكل وسوم HTML بالشرح العربي">
+    <meta name="author" content="أحمد">
+    <title>المرجع الشامل - HTML + Meta + Link + Media</title>
+
+    <style>
+        body {
+            background: #0d1117;
+            color: #c9d1d9;
+            font-family: 'Tahoma';
+            padding: 20px;
+            line-height: 2.2;
+            font-size: 18px
+        }
+
+        h1 {
+            text-align: center;
+            color: #58a6ff;
+            margin: 30px 0;
+            font-size: 38px
+        }
+
+        h2 {
+            color: #7ee787;
+            border-bottom: 2px solid #30363d;
+            padding-bottom: 10px;
+            margin-top: 60px;
+            font-size: 28px
+        }
+
+        .قسم {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 25px 0
+        }
+
+        .وسم {
+            background: #1f6feb;
+            color: #fff;
+            padding: 5px 12px;
+            border-radius: 7px;
+            font-family: 'Courier New';
+            font-weight: bold;
+            font-size: 19px
+        }
+
+        .صفة {
+            background: #f0883e;
+            color: #000;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-weight: bold
+        }
+
+        .كود {
+            background: #010409;
+            color: #ffa657;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 12px;
+            border-right: 5px solid #58a6ff;
+            overflow-x: auto;
+            font-size: 16px
+        }
+
+        .ملحوظة {
+            color: #f0883e;
+            background: #1c1c2e;
+            padding: 10px;
+            border-radius: 6px;
+            margin: 10px 0
+        }
+
+        .زر {
+            background: #238636;
+            color: #fff;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 9px;
+            cursor: pointer;
+            margin: 8px;
+            font-size: 17px;
+            font-weight: bold
+        }
+
+        .زر:hover {
+            background: #2ea043
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>📚 المرجع الشامل لكل وسوم HTML</h1>
+    <p style="text-align:center">كله بالعربي + أمثلة حية. احفظ الصفحة وذاكر أوفلاين</p>
+
+    <h2>1. قسم الـ &lt;head&gt; - الحاجات اللي مش بتظهر</h2>
+    <div class="قسم">
+        <p><span class="وسم">&lt;meta charset="UTF-8"&gt;</span></p>
+        <p>بيعمل إيه؟ بيخلي العربي والإيموجي يظهروا صح 100%. لازم يبقى أول حاجة</p>
+
+        <p><span class="وسم">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
+        <p>بيعمل إيه؟ بيظبط الموقع عالموبايل. من غيره الموقع يطلع مصغر أوي</p>
+
+        <meta charset="UTF-8">
+        <title>كل وسوم HTML - شرح عربي</title>
+
+        <style>
+            body {
+                background: #0d1117;
+                color: #c9d1d9;
+                font-family: 'Tahoma';
+                padding: 20px;
+                line-height: 2;
+                font-size: 17px
+            }
+
+            h1 {
+                text-align: center;
+                color: #58a6ff;
+                margin: 30px 0;
+                font-size: 36px
+            }
+
+            h2 {
+                color: #7ee787;
+                border-bottom: 2px solid #30363d;
+                padding-bottom: 8px;
+                margin-top: 50px
+            }
+
+            .قسم {
+                background: #161b22;
+                border: 1px solid #30363d;
+                border-radius: 10px;
+                padding: 20px;
+                margin: 20px 0
+            }
+
+            .وسم {
+                background: #1f6feb;
+                color: #fff;
+                padding: 4px 10px;
+                border-radius: 6px;
+                font-family: 'Courier New';
+                font-weight: bold;
+                font-size: 18px
+            }
+
+            .كود {
+                background: #010409;
+                color: #ffa657;
+                padding: 15px;
+                border-radius: 8px;
+                margin-top: 10px;
+                border-right: 4px solid #58a6ff;
+                overflow-x: auto
+            }
+
+            .شرح {
+                margin: 10px 0
+            }
+
+            .زر {
+                background: #238636;
+                color: #fff;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 8px;
+                cursor: pointer;
+                margin: 5px;
+                font-size: 16px
+            }
+
+            .زر:hover {
+                background: #2ea043
+            }
+
+            .ملحوظة {
+                color: #f0883e;
+                font-size: 15px
+            }
+        </style>
+        </head>
+
+        <body>
+
+            <h1>📚 كل وسوم HTML5 - شرح عربي مبسط</h1>
+            <p style="text-align:center">احفظ الصفحة دي وذاكر منها أوفلاين. كل وسم تحته شرحه بالعربي</p>
+
+            <h2>1. الهيكل الأساسي</h2>
+            <div class="قسم">
+                <p class="شرح"><span class="وسم">&lt;!DOCTYPE html&gt;</span> : بيقول للمتصفح دي صفحة HTML5. لازم تبقى
+                    أول سطر</p>
+                <p class="شرح"><span class="وسم">&lt;html&gt;</span> : بداية ونهاية الصفحة كلها. كل حاجة جواها</p>
+                <p class="شرح"><span class="وسم">&lt;head&gt;</span> : فيها الإعدادات والعنوان. مش بتظهر في الصفحة</p>
+                <p class="شرch"><span class="وسم">&lt;meta charset="UTF-8"&gt;</span> : عشان العربي يظهر صح. ملهوش قفلة
+                </p>
+                <p class="شرح"><span class="وسم">&lt;title&gt;</span> : اسم الصفحة اللي بيظهر فوق في التاب</p>
+                <p class="شرح"><span class="وسم">&lt;body&gt;</span> : كل المحتوى اللي الناس بتشوفه</p>
+                <div class="كود">&lt;!DOCTYPE
+                    html&gt;<br>&lt;html&gt;<br>&lt;head&gt;&lt;title&gt;عنواني&lt;/title&gt;&lt;/head&gt;<br>&lt;body&gt;المحتوى&lt;/body&gt;<br>&lt;/html&gt;
+                </div>
+            </div>
+
+            <h2>2. العناوين والفقرات</h2>
+            <div class="قسم">
+                <p class="شرح"><span class="وسم">&lt;h1&gt; ل &lt;h6&gt;</span> : عناوين من كبير لصغير. h1 أكبر واحد</p>
+                <p class="شرح"><span class="وسم">&lt;p&gt;</span> : فقرة/براجراف. بينزل سطر جديد</p>
+                <p class="شرح"><span class="وسم">&lt;br&gt;</span> : سطر جديد بس. ملهوش قفلة</p>
+                <p class="شرح"><span class="وسم">&lt;hr&gt;</span> : خط فاصل بين الأقسام. ملهوش قفلة</p>
+                <div class="كود">&lt;h1&gt;عنوان كبير&lt;/h1&gt;<br>&lt;p&gt;دي
+                    فقرة&lt;/p&gt;<br>&lt;br&gt;<br>&lt;hr&gt;</div>
+            </div>
+
+            <h2>3. تنسيق النص</h2>
+            <div class="قسم">
+                <p class="شرح"><span class="وسم">&lt;b&gt;</span> : عريض Bold</p>
+                <p class="شرح"><span class="وسم">&lt;strong&gt;</span> : عريض ومهم أكتر للـ SEO</p>
+                <p class="شرح"><span class="وسم">&lt;i&gt;</span> : مائل Italic</p>
+                <p class="شرح"><span class="وسم">&lt;em&gt;</span> : مائل ومؤكد عليه</p>
+                <p class="شرح"><span class="وسم">&lt;u&gt;</span> : تحته خط</p>
+                <p class="شرح"><span class="وسم">&lt;mark&gt;</span> : تظليل أصفر زي الماركر</p>
+                <p class="شرح"><span class="وسم">&lt;small&gt;</span> : خط صغير</p>
+                <p class="شرح"><span class="وسم">&lt;del&gt;</span> : مشطوب عليه</p>
+                <p class="شرح"><span class="وسم">&lt;ins&gt;</span> : تحته خط للإضافة</p>
+                <div class="كود">&lt;b&gt;عريض&lt;/b&gt; &lt;mark&gt;متظلل&lt;/mark&gt; &lt;del&gt;ملغي&lt;/del&gt;
+                </div>
+            </div>
+
+            <h2>4. الروابط والصور</h2>
+            <div class="قسم">
+                <p class="شرح"><span class="وسم">&lt;a href="الرابط"&gt;</span> : لينك. href هو المكان اللي هيروحله</p>
+                <p class="شرح"><span class="وسم">&lt;img src="الصورة.jpg" alt="وصف"&gt;</span> : صورة. src مكانها، alt
+                    لو الصورة مظهرتش. ملهاش قفلة</p>
+                <p class="ملحوظة">ملحوظة: alt مهم عشان جوجل ولو النت ضعيف</p>
+                <div class="كود">&lt;a href="https://google.com"&gt;روح جوجل&lt;/a&gt;<br>&lt;img src="cat.jpg"
+                    alt="صورة قطة"&gt;</div>
+            </div>
+
+            <h2>5. القوائم</h2>
+            <div class="قسم">
+                <p class="شرح"><span class="وسم">&lt;ul&gt;</span> : قائمة نقط</p>
+                <p class="شرح"><span class="وسم">&lt;ol&gt;</span> : قائمة أرقام</p>
+                <p class="شرح"><span class="وسم">&lt;li&gt;</span> : عنصر جوه القائمة</p>
+                <div class="كود">&lt;ul&gt;<br>&lt;li&gt;تفاح&lt;/li&gt;<br>&lt;li&gt;موز&lt;/li&gt;<br>&lt;/ul&gt;
+                </div>
+            </div>
+
+            <h2>6. الجداول</h2>
+            <div class="قسم">
+                <p class="شرح"><span class="وسم">&lt;table&gt;</span> : الجدول كله</p>
+                <p class="شرح"><span class="وسم">&lt;tr&gt;</span> : صف Table Row</p>
+                <p class="شرح"><span class="وسm">&lt;td&gt;</span> : خانة عادية Table Data</p>
+                <p class="شرح"><span class="وسم">&lt;th&gt;</span> : عنوان الخانة، بيبقى عريض ومتوسط</p>
+                <div class="كود">&lt;table
+                    border="1"&gt;<br>&lt;tr&gt;&lt;th&gt;الاسم&lt;/th&gt;&lt;th&gt;العمر&lt;/th&gt;&lt;/tr&gt;<br>&lt;tr&gt;&lt;td&gt;أحمد&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;/tr&gt;<br>&lt;/table&gt;
+                </div>
+            </div>
+
+            <h2>7. الفورم - النماذج</h2>
+            <div class="قسم">
+                <p class="شرح"><span class="وسم">&lt;form&gt;</span> : استمارة بيانات</p>
+                <p class="شرح"><span class="وسم">&lt;input type="text"&gt;</span> : مربع كتابة. ملهوش قفلة</p>
+                <p class="شرح"><span class="وسم">&lt;input type="password"&gt;</span> : كلمة سر بتستخبي</p>
+                <p class="شرح"><span class="وسم">&lt;textarea&gt;</span> : مربع كتابة كبير</p>
+                <p class="شرح"><span class="وسم">&lt;select&gt;</span> : قائمة منسدلة</p>
+                <p class="شرح"><span class="وسم">&lt;option&gt;</span> : اختيار جوه القائمة</p>
+                <p class="شرح"><span class="وسم">&lt;button&gt;</span> : زرار</p>
+                <p class="شرح"><span class="وسم">&lt;label&gt;</span> : اسم الحقل اللي جنب المربع</p>
+                <div class="كود">&lt;form&gt;<br>&lt;label&gt;اسمك:&lt;/label&gt;<br>&lt;input
+                    type="text"&gt;<br>&lt;button&gt;إرسال&lt;/button&gt;<br>&lt;/form&gt;</div>
+            </div>
+
+            <h2>8. التقسيم والحاويات</h2>
+            <div class="قسم">
+                <p class="شرح"><span class="وسم">&lt;div&gt;</span> : صندوق كبير بيقسم الصفحة - Block</p>
+                <p class="شرح"><span class="وسم">&lt;span&gt;</span> : صندوق صغير جوه السطر - Inline</p>
+                <p class="شرح"><span class="وسم">&lt;header&gt;</span> : رأس الصفحة</p>
+                <p class="شرح"><span class="وسم">&lt;nav&gt;</span> : القائمة/التنقل</p>
+                <p class="شرح"><span class="وسم">&lt;main&gt;</span> : المحتوى الأساسي</p>
+                <p class="شرح"><span class="وسم">&lt;section&gt;</span> : قسم من الصفحة</p>
+                <p class="شرح"><span class="وسم">&lt;article&gt;</span> : مقال مستقل</p>
+                <p class="شرح"><span class="وسم">&lt;footer&gt;</span> : تذييل الصفحة</p>
+            </div>
+
+            <h2>9. وسوم HTML5 الجديدة</h2>
+            <div class="قسم">
+                <p class="شرح"><span class="وسم">&lt;video&gt;</span> : فيديو</p>
+                <p class="شرح"><span class="وسم">&lt;audio&gt;</span> : صوت</p>
+                <p class="شرح"><span class="وسم">&lt;canvas&gt;</span> : لوحة رسم</p>
+                <p class="شرح"><span class="وسم">&lt;progress&gt;</span> : شريط تحميل</p>
+            </div>
+
+            <h2>جرب التفاعل بـ JavaScript</h2>
+            <div class="قسم" style="text-align:center">
+                <p id="النتيجة">عدد الوسوم اللي شوفتها: 0</p>
+                <button class="زر" onclick="عد()">اضغط عد الوسوم</button>
+                <button class="زر" onclick="غير_اللون()">غير لون الصفحة</button>
+            </div>
+
+            <script>
+                let العداد = 0;
+                function عد() {
+                    العداد++;
+                    document.getElementById('النتيجة').innerHTML = 'عدد الضغطات: ' + العداد + ' 🔥';
+                }
+                function غير_اللون() {
+                    let الوان = ['#0d1117', '#1a1a2e', '#0f3460', '#16213e'];
+                    let رقم = Math.floor(Math.random() * الوان.length);
+                    document.body.style.background = الوان[رقم];
+                }
+            </script>
+
+            <p style="text-align:center;margin-top:50px;color:#7ee787;font-size:20px">دي أهم 80% من الوسوم. الباقي
+                استخدامات متقدمة 💪</p>
+
+            <p><span class="وسم">&lt;meta name="description" content="الوصف"&gt;</span></p>
+            <p>بيعمل إيه؟ الوصف اللي بيظهر تحت اسم موقعك في جوجل. اكتب 160 حرف</p>
+
+            <p><span class="وسم">&lt;meta name="keywords" content="كلمات"&gt;</span></p>
+            <p>بيعمل إيه؟ كلمات مفتاحية لجوجل زمان. دلوقتي جوجل مبقاش يبص عليها</p>
+
+            <p><span class="وسم">&lt;meta http-equiv="refresh" content="10"&gt;</span></p>
+            <p>بيعمل إيه؟ بيعمل تحديث للصفحة كل 10 ثواني تلقائي</p>
+
+            <p class="ملحوظة">ملحوظة: كل وسوم meta ملهاش قفلة &lt;/meta&gt;</p>
+            <div class="كود">&lt;meta charset="UTF-8"&gt;<br>&lt;meta name="viewport" content="width=device-width,
+                initial-scale=1.0"&gt;<br>&lt;meta name="description" content="موقعي لتعليم البرمجة"&gt;</div>
+    </div>
+
+    <h2>2. وسوم &lt;link&gt; - الربط بالملفات الخارجية</h2>
+    <div class="قسم">
+        <p><span class="وسم">&lt;link rel="stylesheet" href="style.css"&gt;</span></p>
+        <p>بيعمل إيه؟ بيربط ملف CSS خارجي عشان الألوان والشكل. <span class="صفة">rel</span> = نوع العلاقة، <span
+                class="صفة">href</span> = مكان الملف</p>
+
+        <p><span class="وسm">&lt;link rel="icon" href="logo.png"&gt;</span></p>
+        <p>بيعمل إيه؟ بيحط الأيقونة الصغيرة اللي جنب اسم التاب فوق. اسمها Favicon</p>
+
+        <p><span class="وسم">&lt;link rel="preconnect" href="رابط"&gt;</span></p>
+        <p>بيعمل إيه؟ بيسرع تحميل الخطوط والصور من موقع تاني</p>
+        <p class="ملحوظة">ملحوظة: link ملهاش قفلة برضو</p>
+        <div class="كود">&lt;link rel="stylesheet" href="style.css"&gt;<br>&lt;link rel="icon" href="favicon.png"&gt;
+        </div>
+    </div>
+
+    <h2>3. الصور &lt;img&gt;</h2>
+    <div class="قسم">
+        <p><span class="وسم">&lt;img src="الصورة.jpg" alt="وصف"&gt;</span></p>
+        <p>بيعمل إيه؟ بيحط صورة في الصفحة</p>
+        <p><span class="صفة">src</span> = مكان الصورة Source</p>
+        <p><span class="صفة">alt</span> = الوصف البديل. بيظهر لو الصورة مبطلعش، ومهم لجوجل</p>
+        <p><span class="صفة">width</span> و <span class="صفة">height</span> = العرض والطول بالبكسل</p>
+        <p class="ملحوظة">ملحوظة: img ملهاش قفلة</p>
+        <div class="كود">&lt;img src="cat.jpg" alt="صورة قطة" width="300" height="200"&gt;</div>
+    </div>
+
+    <h2>4. الفيديو &lt;video&gt;</h2>
+    <div class="قسم">
+        <p><span class="وسم">&lt;video controls width="400"&gt;</span></p>
+        <p>بيعمل إيه؟ بيشغل فيديو في الصفحة</p>
+        <p><span class="صفة">controls</span> = بيظهر أزرار التشغيل والإيقاف</p>
+        <p><span class="صفة">autoplay</span> = يشتغل لوحده أول ما الصفحة تفتح</p>
+        <p><span class="صفة">loop</span> = يعيد الفيديو كل ما يخلص</p>
+        <p><span class="صفة">muted</span> = يشغل من غير صوت</p>
+        <div class="كود">&lt;video controls width="400"&gt;<br>&nbsp;&nbsp;&lt;source src="فيديو.mp4"
+            type="video/mp4"&gt;<br>&lt;/video&gt;</div>
+    </div>
+
+    <h2>5. الصوت &lt;audio&gt;</h2>
+    <div class="قسم">
+        <p><span class="وسم">&lt;audio controls&gt;</span></p>
+        <p>بيعمل إيه؟ بيشغل ملف صوتي MP3</p>
+        <p>نفس الصفات بتاعة الفيديو: controls, autoplay, loop</p>
+        <div class="كود">&lt;audio controls&gt;<br>&nbsp;&nbsp;&lt;source src="صوت.mp3"
+            type="audio/mpeg"&gt;<br>&lt;/audio&gt;</div>
+    </div>
+
+    <h2>6. الإطار &lt;iframe&gt;</h2>
+    <div class="قسم">
+        <p><span class="وسم">&lt;iframe src="رابط"&gt;</span></p>
+        <p>بيعمل إيه؟ بيجيب صفحة موقع تاني جوه صفحتك. زي فيديو يوتيوب</p>
+        <p><span class="صفة">width</span> و <span class="صفة">height</span> = المقاس</p>
+        <p><span class="صفة">title</span> = وصف للإطار</p>
+        <div class="كود">&lt;iframe src="https://youtube.com" width="500" height="300"&gt;&lt;/iframe&gt;</div>
+    </div>
+
+    <h2>7. باقي الوسوم المهمة سريعاً</h2>
+    <div class="قسم">
+        <p><span class="وسم">&lt;h1&gt; ل &lt;h6&gt;</span> : عناوين من كبير لصغير</p>
+        <p><span class="وسم">&lt;p&gt;</span> : فقرة</p>
+        <p><span class="وسم">&lt;a href=""&gt;</span> : رابط</p>
+        <p><span class="وسم">&lt;ul&gt; &lt;ol&gt; &lt;li&gt;</span> : قوائم نقط وأرقام</p>
+        <p><span class="وسم">&lt;table&gt; &lt;tr&gt; &lt;td&gt; &lt;th&gt;</span> : جداول</p>
+        <p><span class="وسم">&lt;form&gt; &lt;input&gt; &lt;button&gt;</span> : استمارات</p>
+        <p><span class="وسm">&lt;div&gt; &lt;span&gt;</span> : تقسيم الصفحة</p>
+    </div>
+
+    <h2>جرب التفاعل بـ JavaScript</h2>
+    <div class="قسم" style="text-align:center">
+        <p id="العداد">اضغط على الأزرار وجرب 👇</p>
+        <button class="زر" onclick="اضافة()">زود العداد +1</button>
+        <button class="زر" onclick="غير_الخلفية()">غير خلفية الموقع</button>
+        <button class="زر" onclick="رسالة()">طلع رسالة</button>
+    </div>
+
+    <script>
+        let رقم = 0;
+        function اضافة() {
+            رقم++;
+            document.getElementById('العداد').innerHTML = 'عدد الضغطات: ' + رقم + ' 🔥';
+        }
+        function غير_الخلفية() {
+            let الوان = ['#0d1117', '#1a0033', '#003333', '#331100'];
+            let عشوائي = Math.floor(Math.random() * الوان.length);
+            document.body.style.background = الوان[عشوائي];
+        }
+        function رسالة() {
+            alert('برافو يا أحمد! انت كده فهمت HTML + Meta + Media 💪');
+        }
+    </script>
+
+    <p style="text-align:center;margin-top:60px;color:#7ee787;font-size:22px">كده معاك مرجع كامل لكل حاجة. ذاكر منه أي
+        وقت 💪</p>
+
+</body>
+
+</html>
